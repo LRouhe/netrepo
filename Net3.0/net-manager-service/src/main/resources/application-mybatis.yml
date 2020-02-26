@@ -1,0 +1,8 @@
+# 这个文件是做mybatis的整合
+mybatis:
+  #加载全局配置文件
+  configLocation: classpath:mybatis-config.xml
+  # 加载mapper映射文件
+  mapper-locations: classpath*:mappers/**/*Mapper.xml
+  # 别名包扫描
+  type-aliases-package: com.net.domain

@@ -1,0 +1,13 @@
+#Dubbo整合
+dubbo:
+  application:
+    name: "net-manager-service"
+    #指定注册中心协议和地址
+    registry:
+      protocol: "zookeepr"
+      address: "192.168.58.101:2181"
+    #指定通信协议和端口
+    protocol:
+      #名和端口号都是自己定的
+      name: "dubbo"
+      port: 20880

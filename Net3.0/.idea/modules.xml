@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Net3.0.iml" filepath="$PROJECT_DIR$/.idea/Net3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-api/net-api.iml" filepath="$PROJECT_DIR$/net-api/net-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-common/net-common.iml" filepath="$PROJECT_DIR$/net-common/net-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-manager-interface/net-manager-interface.iml" filepath="$PROJECT_DIR$/net-manager-interface/net-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-manager-service/net-manager-service.iml" filepath="$PROJECT_DIR$/net-manager-service/net-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-manager-web/net-manager-web.iml" filepath="$PROJECT_DIR$/net-manager-web/net-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-model/net-model.iml" filepath="$PROJECT_DIR$/net-model/net-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net-parent/net-parent.iml" filepath="$PROJECT_DIR$/net-parent/net-parent.iml" />
+    </modules>
+  </component>
+</project>

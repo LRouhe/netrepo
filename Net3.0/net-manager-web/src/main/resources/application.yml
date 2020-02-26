@@ -1,0 +1,51 @@
+server:
+  port: 8083
+  servlet:
+#    上下文路径
+    context-path: /
+
+    tomcat:
+      # tomcat的uri编码
+      uri-encoding: UTF-8
+      # 配置tomcat最大的线程数
+      max-threads: 800
+      # 配置tomcat初始化线程数
+      min-spare-threads: 30
+
+# 日志信息配置
+logging:
+  level:
+    com.demo: debug
+    org.springframework: warn
+
+# spring 配置
+spring:
+  application:
+    # 应用名称
+    name: net-manager-web
+  jackson:
+    # 时区  东八区
+    time-zone: GMT+8
+    # 时间格式
+    date-format: yyyy-MM-dd HH:mm:ss
+#  激活哪些配置文件
+  profiles:
+    active: dubbo
+
+  #配置文件上传
+  servlet:
+    multipart:
+      #单个文件最大
+      max-file-size: 5MB
+      #最大上传数  这里是50/5=10
+      max-request-size: 50MB
+  #配置freemarker
+  freemarker:
+    charset: UTF-8
+    suffix: .html
+
+# 热部署
+devtools:
+  restart:
+    # 热部署是否可用  true代表可用
+    enable: true

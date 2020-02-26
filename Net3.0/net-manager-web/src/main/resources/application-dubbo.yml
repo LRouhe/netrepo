@@ -1,0 +1,8 @@
+#Dubbo整合
+dubbo:
+  application:
+    name: "net-manager-web"
+    #指定注册中心协议和地址
+    registry:
+      protocol: "zookeepr"
+      address: "192.168.58.101:2181"
